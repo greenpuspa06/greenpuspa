@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
 import { Hero } from "@/components/sections/Hero";
+import { VideoSlider } from "@/components/sections/VideoSlider";
 import { LazyImage as Image } from "@/components/ui/lazy-image";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { getAllPosts } from "@/lib/markdown";
@@ -275,16 +276,8 @@ export default function Home() {
             </p>
           </ScrollReveal>
 
-          <ScrollReveal direction="up" delay={0.2} className="relative aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-black">
-            <iframe
-              className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/AweWYxlkVNg?si=dVocxB6Dh6GznKN3"
-              title="Smart Farming Gang Hijau Green Puspa"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
+          <ScrollReveal direction="up" delay={0.2}>
+            <VideoSlider />
           </ScrollReveal>
         </div>
       </section>
