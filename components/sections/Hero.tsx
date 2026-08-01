@@ -20,7 +20,7 @@ const slides = [
     secondaryLabel: "Jelajahi Program"
   },
   {
-    image: "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=2000&auto=format&fit=crop",
+    image: "/penghijauan.jpg",
     title: "Inovasi Hidroponik",
     subtitle: "Kemandirian Pangan di Lahan Sempit",
     description: "Lebih dari 1500 lubang tanam hidroponik produktif dikelola langsung secara kolektif oleh warga setempat.",
@@ -30,7 +30,7 @@ const slides = [
     secondaryLabel: "Lihat Galeri"
   },
   {
-    image: "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?q=80&w=2000&auto=format&fit=crop",
+    image: "/ikan.jpg",
     title: "Sinergi Akuaponik",
     subtitle: "Budidaya Terintegrasi Alami",
     description: "Ekosistem sirkular tertutup yang menggabungkan kolam ikan dengan tanaman sayuran bernutrisi.",

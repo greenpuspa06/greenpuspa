@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Leaf, MapPin, TreePine } from "lucide-react";
+import { MapPin, TreePine } from "lucide-react";
 
 const footerLinks = {
   pages: [
@@ -22,9 +23,13 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4 group">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-white" />
-              </div>
+              <Image
+                src="/logo-optimized.png"
+                alt="Green Puspa Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
               <span className="font-heading text-xl font-bold text-white">
                 Green <span className="text-green-400">Puspa</span>
               </span>

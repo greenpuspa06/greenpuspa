@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, X, Leaf } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function Navbar() {
@@ -35,10 +36,14 @@ export function Navbar() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
-            <Leaf className="w-4 h-4 text-white" />
-          </div>
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <Image
+            src="/logo-optimized.png"
+            alt="Green Puspa Logo"
+            width={36}
+            height={36}
+            className="object-contain"
+          />
           <span className={`font-heading text-lg font-bold transition-colors ${scrolled || !isHome ? "text-gray-900" : "text-white"}`}>
             Green <span className="text-green-500">Puspa</span>
           </span>

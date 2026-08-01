@@ -120,7 +120,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ScrollReveal direction="left" className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=2070&auto=format&fit=crop"
+                src="/dariwarga.jpeg"
                 alt="Warga Green Puspa"
                 fill
                 className="object-cover"
@@ -201,7 +201,7 @@ export default function Home() {
               </ScrollReveal>
               <ScrollReveal direction="left" className="md:w-1/2 w-full h-[320px] relative rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?q=80&w=1200&auto=format&fit=crop"
+                  src="/ikan.jpg"
                   alt="Akuaponik Green Puspa"
                   fill
                   className="object-cover"
@@ -224,7 +224,7 @@ export default function Home() {
               </ScrollReveal>
               <ScrollReveal direction="right" className="md:w-1/2 w-full h-[320px] relative rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1200&auto=format&fit=crop"
+                  src="/penghijauan.jpg"
                   alt="Penghijauan Green Puspa"
                   fill
                   className="object-cover"
@@ -243,19 +243,19 @@ export default function Home() {
                 </p>
                 <div className="grid grid-cols-3 gap-2">
                   <div className="relative h-20 rounded-lg overflow-hidden">
-                    <Image src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?q=80&w=400&auto=format&fit=crop" alt="Edukasi 1" fill className="object-cover" />
+                    <Image src="/pameran-1.jpeg" alt="Edukasi 1" fill className="object-cover" />
                   </div>
                   <div className="relative h-20 rounded-lg overflow-hidden">
-                    <Image src="https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=400&auto=format&fit=crop" alt="Edukasi 2" fill className="object-cover" />
+                    <Image src="/pameran-2.jpeg" alt="Edukasi 2" fill className="object-cover" />
                   </div>
                   <div className="relative h-20 rounded-lg overflow-hidden">
-                    <Image src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=400&auto=format&fit=crop" alt="Edukasi 3" fill className="object-cover" />
+                    <Image src="/pameran-3.jpeg" alt="Edukasi 3" fill className="object-cover" />
                   </div>
                 </div>
               </ScrollReveal>
               <ScrollReveal direction="left" className="md:w-1/2 w-full h-[320px] relative rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=1200&auto=format&fit=crop"
+                  src="/pelatihan.jpg"
                   alt="Edukasi Lingkungan"
                   fill
                   className="object-cover"

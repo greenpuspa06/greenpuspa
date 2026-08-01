@@ -1,7 +1,7 @@
 ---
 title: "Pelatihan Pembuatan Nutrisi AB Mix Mandiri"
 date: "2024-03-05"
-image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?q=80&w=800&auto=format&fit=crop"
+image: "/pelatihan-3.jpg"
 category: "Edukasi"
 ---
 Untuk menekan biaya operasional hidroponik, Green Puspa menyelenggarakan pelatihan meracik nutrisi AB Mix secara mandiri. Pelatihan ini diikuti oleh perwakilan RT se-RW 06.

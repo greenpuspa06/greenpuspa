@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Generated gallery images (copied from Images/ at build time)
+/public/gallery-images/
