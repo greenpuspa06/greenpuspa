@@ -1,0 +1,18 @@
+# Normalize line endings
+* text=auto
+
+# Generated Next.js output files — treat as binary to avoid LF/CRLF warnings
+out/**/*.txt binary
+out/**/*.html binary
+out/**/*.json binary
+out/**/*.xml  binary
+
+# Images — always binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.heic binary
+*.heif binary

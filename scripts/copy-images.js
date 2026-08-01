@@ -48,6 +48,16 @@ async function main() {
 
   ensureDir(DEST);
 
+  // Remove any folders in DEST that no longer exist in SRC (handles renames/deletes)
+  if (fs.existsSync(DEST)) {
+    for (const entry of fs.readdirSync(DEST, { withFileTypes: true })) {
+      if (entry.isDirectory() && !fs.existsSync(path.join(SRC, entry.name))) {
+        fs.rmSync(path.join(DEST, entry.name), { recursive: true, force: true });
+        console.log(`  Removed stale folder: ${entry.name}`);
+      }
+    }
+  }
+
   const folders = fs
     .readdirSync(SRC, { withFileTypes: true })
     .filter((e) => e.isDirectory());
